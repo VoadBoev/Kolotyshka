@@ -37,7 +37,7 @@ void init(char M[][N], struct pos *p_pos, int *k)
 
     *k = 0;
 
-    f = fopen("level.txt", "rb");
+    f = fopen("4sv.txt", "rb");
 
     for (int i = 0; i < N; ++i)
         for (int j = 0; j < N; ++j)
